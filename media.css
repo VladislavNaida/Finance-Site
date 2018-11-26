@@ -1,0 +1,44 @@
+@media screen and (max-width: 1150px) {
+	.col-1, .col-2{
+		width: 100%;
+	}
+	.footer-col{
+		width: 40%;
+	}
+	nav{
+		display: none;
+	}
+}
+@media screen and (max-width: 760px){
+	.col-2{
+		height: auto;
+		padding: 30px 0;
+	}
+	.col-2 ul li{
+		width: 90%;
+		margin-top: -20px;
+	}
+	.slider-text{
+		width: 90%;
+		margin: 0 auto 10px;
+	}
+	.slider-text h3{
+		margin-top: 30px;
+	}
+	h2{
+		font-size: 28px;
+	}
+	.list{
+		margin: 80px -30px;
+	}
+	.footer-col{
+		width: 100%;
+		margin-bottom: -150px;
+	}
+	header{
+		height: 600px;
+	}
+	.col-1 h3{
+		margin-top: 20px;
+	}
+}
